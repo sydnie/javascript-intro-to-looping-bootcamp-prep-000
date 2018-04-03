@@ -21,18 +21,8 @@ function maybeTrue() {
 }
 
 function doWhileLoop(array) {
-  
-}
-
-function doWhileLoop(array) {
-  do {
-    array.splice(0);
-  } while (array.length > 0 && maybeTrue());
+  array.slice();
+} while () (array.length > 0 && maybeTrue());
   return array;
 }
-
-
-
-
-
 
