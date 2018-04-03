@@ -16,20 +16,17 @@ function whileLoop(n) {
   return "done";
 }
 
-
-
-do {
-  
+function maybeTrue() {
+  return Math.random() >= 0.5;
 }
 
 function doWhileLoop(array) {
+  
   function maybeTrue() {
   return Math.random() >= 0.5;
 }
 
-  array.slice();
-  } while (array.length > 0 && maybeTrue());
-  return array;
-  } 
+  
+  
 }
 
